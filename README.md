@@ -22,6 +22,11 @@ You can install the latest ``pascua`` version via ``pip``:
 pip install pascua
 ```
 
+## How it works?
+
+`pascua` allow us to perform code executions in isolated environments through containerization techniques. The main idea is that `pascua` builds a `docker` image with the given parameters defined in the corresponding implementation of the `Environment` constructor. 
+
+When a call to `exec(.)` method is performed, it uses the generated `docker` image as the base in which it launches the proper interpreter or code compilation to execute the given `source_code` in combination with the variables defined in the `context` dictionary.
 
 ## Usage
 
