@@ -1,9 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
 from distutils.util import convert_path
 
 module_name = 'pascua'
 
-with open('README.md', encoding='utf-8') as f:
+with open('README.md') as f:
     long_description = f.read()
 
 with open(convert_path('{}/_version.py'.format(module_name))) as file:
