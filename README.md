@@ -46,7 +46,7 @@ source_code = [
 
 env = psc.PythonEnvironment(
     version='3.7.3', 
-    dependencies=[
+    pip_dependencies=[
         'numpy>=1.14.0',
     ]
 )

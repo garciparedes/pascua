@@ -25,6 +25,7 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[
-        'docker>=4.0.0'
+        'docker>=4.0.0',
+        'dill>=0.2.9'
     ],
 )

@@ -1,7 +1,7 @@
-from typing import Any, Dict, Union, Sequence
+from typing import Any, Dict, Union, Sequence, MutableSequence
 
 Dependency = str
-Dependencies = Sequence[Dependency]
+Dependencies = MutableSequence[Dependency]
 
 Version = Union[str, Sequence[str]]
 
